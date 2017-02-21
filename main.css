@@ -1,0 +1,73 @@
+
+h1
+{
+	color: #4286f4;
+}
+
+
+
+.carousel-item {
+    display: none;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 600px;
+    height: 700px;
+    padding-right:250px;
+    padding-left: 250px;
+
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+
+
+.pad
+{
+  padding-right:50px;
+  padding-left: 50px;
+  padding-top: 80px; 
+
+}
+
+.rightStuff
+{
+  padding-right: 50px;
+
+}
+.leftStuff
+{
+  padding-left: 50px;
+  
+}
+
+ul.browser-default {
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+ul.browser-default li {
+  list-style-type: initial;
+}
+
+
+body 
+{
+  background-image: url("images/back.jpg")  no-repeat center center fixed;
+  -webkit-background-size: cover;	
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
