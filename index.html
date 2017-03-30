@@ -37,14 +37,14 @@ body {
 <div class="navbar-fixed">
 	<nav class="blue darken-4">
 		<div class="navbar-wrapper">
-			<a href="#" class="brand-logo left">Haasith</a>
+			<a href="#" class="brand-logo left">Haasith Sanka</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
-      	<li><a href="#test1">Education</a></li>
-        <li><a href="#test2">Work Experience</a></li>  
-        <li><a href="#test3">Leadership</a></li>  
-        <li><a href="#">Projects</a></li>
+      	<li><a href="#Education">Education</a></li>
+        <li><a href="#WorkExperience">Work Experience</a></li>  
+        <li><a href="#Leadership">Leadership</a></li>  
+        <li><a href="#Projects">Projects</a></li>
         <li><a href="#Achievements">Achievements</a></li>
-				<li><a href="#">Contact Me</a></li>
+				<li><a href="#ContactMe">Contact Me</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -52,39 +52,53 @@ body {
 
 <div class="row">
     
-
-<div class="col s12 m3">
-    <div class="card left z-depth-5 hoverable">
-      <div class="card-image">
-        <img src="images/AboutMe.jpg">
-        <span class="card-title">Haasith Sanka</span>
+<div class="leftStuff">
+  <div class="col s12 m3">
+      <div class="card left z-depth-5 hoverable">
+        <div class="card-image">
+          <img src="images/AboutMe.jpg">
+          <span class="card-title">Haasith Sanka</span>
+        </div>
       </div>
-    </div>
+  </div>
 </div>
 
-
-      <div class="col m9">
+<div class="summaryLeftStuff rightStuff">
           <div class="card">
             <div class="card-content light-blue accent-2">
             <span class="card-title"><i class="small material-icons">perm_identity</i>About Me
             </span>
-              <p>I am a second year computer science student at UCR and I'm interested in mobile development and web development. At hackathons, I have made android projects such as uber for tutors and airbnb for bicycles. I worked at startups such as Audojam which released in September 2016 and Unfold Labs.</p>
+              <p>I am a second year computer science student at UCR and I'm interested in mobile development and web development. At hackathons, I have made android projects such as uber for tutors and airbnb for bicycles. I worked at startups such as Audojam which released in September 2016 and Unfold Labs.
+              </p>
             </div>
           </div>
-          <div class="chip">
-            C++
+        <div class="card">
+          <div class="card-content light-blue accent-2">
+          <h6>Skills:  </h6>
+            <div class="chip white">
+              <p class="black-text">C++</p>
+            </div>
+            <div class="chip white">
+              <p class="black-text">Android</p>
+            </div>
+            <div class="chip white">
+              <p class="black-text">Swift</p>
+            </div>
+            <div class="chip white">
+              <p class="black-text">HTML/CSS</p>
+            </div>
+            <div class="chip white">
+              <p class="black-text">Ruby on Rails</p>
+            </div>
           </div>
-          
-          <div class="chip">
-            Android
-          </div>
-
         </div>
-
-
+      </div>
+    
 </div>
 
-<div class="row pad">
+
+
+<div class="row pad" id="Education">
         <div class="col s12">
           <div class="card z-depth-5 black">
             <div class="card-content white-text">
@@ -126,8 +140,8 @@ body {
       <div class="col m6">
         <div class="card horizontal blue darken-1">
           <div class="card-image">
-              <img src="images/ucr.jpg">
-              </div>
+              <img src="images/UCR.png">
+          </div>
           <div class="card-stacked">
             <div class="card-content">
               <h5>University of California Riverside</h5>
@@ -145,7 +159,7 @@ body {
 
 
 
-<div class="row pad" id="test2">
+<div class="row pad" id="WorkExperience">
         <div class="col s12">
           <div class="card z-depth-5 black">
             <div class="card-content white-text">
@@ -243,7 +257,7 @@ body {
 
 
 
-<div class="row">
+<!--<div class="row">
     <div class="container center">
 
     <div class="card">
@@ -314,21 +328,108 @@ body {
     </div>
   </div>
   </div>
-  </div>
+  </div>-->
         
+<div class="row pad" id="Projects">
+        <div class="col s12">
+          <div class="card z-depth-5 black">
+            <div class="card-content white-text">
+              <span class="card-title">Projects</span>
+            </div>
+            
+          </div>
+        </div>
+</div>
+
+<div class="row leftStuff rightStuff">
+  <div class="col s12 m3">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/pokeball.jpg">
+        <span class="card-title black">Pokemon App</span>
+      </div>
+      <div class="card-content">
+        <p>
+          Made an app where you can search for pokemon and see their stats. I parsed through an excel file and used AlamoFire requests to get data. 
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="https://github.com/Hsanka6/PokedexApp">Show More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m3">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/letGoApp.png">
+        <span class="card-title black">Lets Go</span>
+      </div>
+      <div class="card-content">
+        <p>
+          Helps you find restaurants based on swiping like tinder. Users can use maps, text friends, and share on facebook after finding a restaurant.  
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1219918851&mt=8">Download Now!</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m3">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/code.png">
+        <span class="card-title black">Get Dev</span>
+      </div>
+      <div class="card-content">
+        <p>
+          Helps stores find student developers in the area to help build websites and apps. Has a messaging system and is integrated to stripe for payment!
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1219918851&mt=8">Download Now!</a>
+      </div>
+    </div>
+  </div>
 
 
+</div>
+      
+<footer class="page-footer blue darken-4" id="ContactMe">
+    <div class="container">
+      <div class="row">
+          <h5 class="white-text">Contact Me</h5>
+          <div class="col s12 m1">
 
+              <a href="https://github.com/Hsanka6"><img src="images/github.png"></a>
+          </div>
+          <div class="col s12 m1">
+              <a href="https://www.linkedin.com/in/haasith-sanka-7b471a105/"><img src="images/linkedIn.png"></a>
+          </div>
+          <div class="col s12 m1">
+              <a href="https://www.facebook.com/haasith.sanka"><img src="images/facebook.png"></a>
+          </div>
+          <div class="col s12 m1">
+              <a href="mailto:haasith2@gmail.com"><img src="images/gmail.png"></a>
+          </div>
 
-<footer class="page-footer blue darken-4">
-  <div class="container blue darken-4">
-	  <div class="footer-copyright">
-	    <div class="container">
-	            © 2016 HAASITH SANKA
-	    </div>
-	  </div>
+      </div>
+
+    </div>
+  <!--<div class="footer-copyright">
+    <div class="container">
+      © 2016 HAASITH SANKA
+    </div>
+  </div>-->
+
+  <div class="footer-copyright">
+    <div class="container">
+    © 2017 Haasith Sanka
+    </div>
   </div>
 </footer>
+
 
  
 </body>
